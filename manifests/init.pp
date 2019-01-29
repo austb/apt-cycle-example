@@ -5,4 +5,9 @@
 # @example
 #   include example
 class example {
+  if $facts['os']['family'] == 'Debian' {
+    class { '::postgresql::globals':
+      manage_package_repo => true,
+    }
+  }
 }

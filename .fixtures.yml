@@ -3,4 +3,8 @@
 ---
 fixtures:
   forge_modules:
-#     stdlib: "puppetlabs/stdlib"
+     stdlib: "puppetlabs/stdlib"
+     translate: "puppetlabs/translate"
+     concat: "puppetlabs/concat"
+     apt: "puppetlabs/apt"
+     postgresql: "puppetlabs/postgresql"
